@@ -1,0 +1,100 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: rgb(252, 147, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Styling */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #333; /* Box border */
+    background-color: rgb(104, 124, 248); /* Light yellow background */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Set consistent width */
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better effect */
+}
+
+/* Centering the Header */
+header {
+    width: 80%;
+    max-width: 800px;
+    background-color: #ffffff; /* Light yellow header background */
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #333; /* Box border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for consistency */
+}
+
+/* Header Text Styling */
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Lists */
+ul, ol {
+    margin: 10px 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Specific Styling for Questions Section */
+.questions-section .question {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.questions-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Image Styling */
+img {
+    max-height: 250px;
+    margin-top: 20px;
+    border: 2px solid #333; /* Box border for images */
+    border-radius: 8px;
+}
+
+/* Center the Content Vertically and Horizontally */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    section {
+        flex-direction: column; /* Keep sections column-based for simplicity */
+    }
+}
